@@ -1,4 +1,4 @@
-version: '3.8'
+version: '3.7'
 
 services:
   app:
@@ -10,3 +10,7 @@ services:
       - "3000:3000"
     environment:
       NODE_ENV: development
+         
+    ports:
+        - 9005:9005
+    
